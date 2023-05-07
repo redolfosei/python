@@ -36,3 +36,18 @@ store_data = {
     },
 
 }
+
+#print(store_data["pepper"]["price"])
+
+for key in store_data:
+    p = store_data[key]["price"]
+    print("{0} is a price".format(p))
+    p[float]
+    print(type(p))
+
+
+
+
+
+
+
