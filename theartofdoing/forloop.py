@@ -1,7 +1,6 @@
-'''
-for i in range(1,800):
+
+for i in range(1,3):
     print('Gloria ' + str(i))
-    '''
 
 '''
 string = 'Freda'
@@ -24,6 +23,6 @@ for i in range(1,10,5):
     print('This will print only twice bcos of the last 5')
 '''
 
-for i in range(10,1,-1): #The last -2 will make it print from backwards
-    print(i)
+# for i in range(10,1,-1): #The last -2 will make it print from backwards
+#     print(i)
     
