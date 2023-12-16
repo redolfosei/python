@@ -37,7 +37,8 @@ bookshop = [
     ]
 ]
 
-book_price = [book[2] for category, subcategories in bookshop for subcategory, books in subcategories for book in books]
+book_price = [book[2] for c, ss in bookshop for s, books in ss for book in books]
+# book_price = [book[2] for category, subcategories in bookshop for subcategory, books in subcategories for book in books]
 print(f"These are the book prices {book_price}")
 averagePrice = sum(book_price) / len(book_price)
 print("This is the average Price {0} \n".format(averagePrice))

@@ -12,3 +12,8 @@ print("{0} is {1} years old and he is wealth $ {2}".format(name, age, money))
 
 #print using the f - string
 print(f"{name} is {age} years old and he is wealth $ {money}")
+
+name = "Eric"
+age = 74
+print("Hello, %s. You are %s." % (name, age))
+
